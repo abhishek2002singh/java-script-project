@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(223, 227, 232);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.box-2{
+    width: 40%;
+    height: 60%;
+    background-color: white;
+  
+}
+
+.box-3{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 6px 1px 8px rgb(5, 116, 194);
+    
+}
+
+h5{
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.web{
+    font-size: .99rem;
+    font-weight: 300;
+    color: rgb(15, 107, 107);
+}
+
+.box-31{
+    color:  rgb(15, 107, 107);
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    background-color:rgb(73,166,234);
+    position: relative;
+    left: 30px;
+}
+
+.box-31 i{
+   color: aliceblue;
+   display: flex;
+   justify-content: center;
+  position: relative;
+  top: 6px;
+}
+
+.box-11{
+    display: flex;
+    position: relative;
+}
+
+.prev-btn{
+    
+    border-style: none;
+    color: rgb(72, 173, 245);
+    font-size: 1.4rem;
+    background-color: white;
+    font-weight: 600;
+    margin: 0 10px ;
+    padding: 5px;
+}
+
+.next-btn{
+    
+    border-style: none;
+    color: rgb(72, 173, 245);
+    font-size: 1.4rem;
+    background-color: white;
+    font-weight: 600;
+    margin: 0 10px ;
+    padding: 5px;
+}
+
+.btn button{
+    background-color: rgb(216, 236, 249);
+    padding:2px 5px;
+    font-weight: 600;
+    color: rgb(79, 176, 245);
+    border: 2px solid rgb(139,202,248);
+    border-radius: 7px;
+}
