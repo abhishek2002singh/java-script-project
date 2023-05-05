@@ -44,7 +44,7 @@ const reviews=[
     },
 
     {
-        id:1,
+        id:5,
         name:"virat",
         job:"web developer",
         img:"image/img7.jpg",
@@ -55,7 +55,7 @@ const reviews=[
     },
 
     {
-        id:1,
+        id:6,
         name:"kohali",
         job:"web developer",
         img:"image/img8.jpg",
