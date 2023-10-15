@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  
+}
+
+.container{
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+h2{
+    font-size: 1.5rem;
+    color: blue;
+  
+}
+
+.nav-bar{
+    display: flex;
+    height: 100px;
+    background-color: rgb(119, 197, 98);
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li{
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+.box1{
+   display: none;
+}
+
+.box3{
+    display: none;
+ }
+
+.nav-bar ul li:hover{
+   background-color: aqua;
+   transition: 0.5s;
+   scale: 1.1;
+   cursor: pointer;
+}
+
+@media only screen and (max-width:1320px){
+    .nav-bar{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .nav-bar{
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    
+    .box1{
+        display: block;
+        
+     }
+
+     .box4{
+        display: block;
+       position: absolute;
+       top: 80px;
+        left: 210px;
+        padding:3px 8px;
+        background-color: rgb(241, 172, 172);
+        border-radius: 4px;
+       
+       
+     }
+
+    
+        
+    
+     .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        display: none;
+       }
+       
+      
+       .active{
+        opacity: 1;
+       }
+
+       .box2.active{
+        height: 280px;
+        background-color: blue;
+       }
+    
+       .box2.active ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        transition: 0.5s ;
+       
+       }
+     
+      
+
+       .box2.active ul{
+        opacity: 1;
+       
+       }
+
+       .box2{
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        right: 0;
+        width: 200px;
+        background-color: black;
+       transition: 0.5s;
+      
+       
+       }
+    
+    }
+
+    
+    
+       

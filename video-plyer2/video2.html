@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video player</title>
+    <link rel="stylesheet" href="video2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+       
+  <video class="video-container">
+       <source src="pl.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+  </video>
+  <div class="but">
+    <button class="play">Play</button>
+    <button class="pause">Pause</button>
+    <button class="sound">sound</button>
+    <audio id=audio loop autoplay src="//upload.wikimedia.org/wikipedia/en/4/45/ACDC_-_Back_In_Black-sample.ogg">Audio is not supported on your browser. Update it.</audio>
+
+<input id=volume type=range min=0 max=100 value=25 step=1>
+  </div>
+  
+
+  <script src="video.js"></script>
+    
+</body>
+</html>

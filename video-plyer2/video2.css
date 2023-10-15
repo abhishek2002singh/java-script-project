@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.video-container{
+    position: absolute;
+  z-index: -1;
+ 
+}
+
+
+
+
+.play{
+
+    background-color: aqua;
+    color: black;
+   padding:5px 10px;
+   border: 2px solid rgb(140, 188, 188);
+   border-radius: 5px ;
+   
+
+}
+.play:hover{
+     cursor: pointer;
+     background-color: rgb(200, 148, 148);
+}
+
+.pause{
+    background-color: aqua;
+    color: black;
+    padding:5px 10px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+} 
+
+.sound{
+    background-color: aqua;
+    color: black;
+    padding:5px 10px; 
+    border: 2px solid aqua;
+    border-radius: 5px;
+}
+
+

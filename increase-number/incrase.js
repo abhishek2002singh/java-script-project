@@ -3,6 +3,8 @@ const box1 = document.querySelector(".box");
 let count=0;
 const box4 = document.querySelector(".box3");
 
+box4.innerHTML=0;
+
 const increase=()=>{
     
     
